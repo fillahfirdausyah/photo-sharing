@@ -1,10 +1,11 @@
 // Component
 import DashboardPage from "./Pages/DashboardPage";
+import Router from "./Route";
 
 function App() {
   return (
     <div>
-      <DashboardPage />
+      <Router />
     </div>
   );
 }

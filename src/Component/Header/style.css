@@ -45,3 +45,7 @@ header button.btn-add {
   outline: none;
   cursor: pointer;
 }
+
+.modal-header {
+  text-align: center !important;
+}
