@@ -1,0 +1,49 @@
+.content {
+    margin-top: 50px;
+  }
+  
+  .card-album {
+    margin-top: 40px;
+    width: 350px;
+    height: 172px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    display: block;
+  }
+  
+  .album {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .album img {
+    /* width: 100%;
+    height: auto;
+    vertical-align: bottom; */
+    position: absolute;
+    left: 0;
+    top: -250px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .album img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .album h5 {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    top: 50px;
+    left: 25px;
+  }
+  
+  .album p {
+    position: absolute;
+    top: 85px;
+    left: 25px;
+    font-weight: 200;
+  }

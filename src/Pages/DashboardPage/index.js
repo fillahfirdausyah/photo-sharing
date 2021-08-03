@@ -1,12 +1,17 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 // Component
-import Dashboard from "../../Component/Dashboard";
+import Header from "../../Component/Header";
+import Album from "../../Component/Album";
 
 function DashboardPage() {
   return (
     <>
-      <Dashboard />
+      <Header />
+      <Container>
+        <Album />
+      </Container>
     </>
   );
 }
