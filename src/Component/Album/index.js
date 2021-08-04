@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // Asset
-import './style.css'
+import "./style.css";
 import Travel from "../../Assets/travel.svg";
 import Hiking from "../../Assets/hiking.svg";
 import Architect from "../../Assets/architect.svg";
@@ -20,10 +21,14 @@ function Album() {
           <AlbumList img={Travel} label="Travel" />
         </div>
         <div className="col-12 col-md-6 col-lg-4">
-          <AlbumList img={Dogs} label="Dogs" />
+          <Link to="/preview">
+            <AlbumList img={Dogs} label="Dogs" />
+          </Link>
         </div>
         <div className="col-12 col-md-6 col-lg-4">
-          <AlbumList img={Hiking} label="Hiking" />
+          <Link to="/preview">
+            <AlbumList img={Hiking} label="Hiking" />
+          </Link>
         </div>
         <div className="col-12 col-md-6 col-lg-4">
           <AlbumList img={Camping} label="Camping" />
