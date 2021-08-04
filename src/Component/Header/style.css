@@ -49,3 +49,14 @@ header button.btn-add {
 .modal-header {
   text-align: center !important;
 }
+
+.modal-new-album {
+  margin-top: 80px;
+  /* height: 1200px !important; */
+}
+
+.shared-album {
+  text-align: center;
+  padding: 31px 0;
+  height: 90px;
+}
