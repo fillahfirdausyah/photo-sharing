@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 // Asset
 import "./style.css";
-import Avatar from "../../Assets/avatar9.png";
+import { Avatar } from "../../Assets";
 import AddCircleRoundedIcon from "@material-ui/icons/AddCircleRounded";
 import ArrowBackIosRoundedIcon from "@material-ui/icons/ArrowBackIosRounded";
 
