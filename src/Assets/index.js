@@ -1,5 +1,5 @@
 import Architect from "./architect.svg";
-import Art from "./art.svga";
+import Art from "./art.svg";
 import Camping from "./camping.svg";
 import Dogs from "./dogs.svg";
 import Hiking from "./hiking.svg";
