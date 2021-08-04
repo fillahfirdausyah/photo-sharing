@@ -1,0 +1,40 @@
+.cover {
+  margin: 25px auto;
+  width: 900px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  color: white;
+}
+
+.cover-img {
+  position: relative;
+}
+
+.cover-img img {
+  position: absolute;
+  width: 900px;
+  top: -450px;
+  left: 0;
+  transition: all .2s ease-in-out;
+}
+
+.cover-img img:hover {
+    transform: scale(1.1);
+}
+
+.cover-img p {
+  position: absolute;
+  font-size: 50px;
+  top: 160px;
+  left: 20px;
+  font-weight: 600;
+}
+
+.cover-img span {
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+    top: 240px;
+    font-weight: 300;
+}
