@@ -5,10 +5,10 @@ import { Container } from "react-bootstrap";
 import Header from "../../Component/Header";
 import Album from "../../Component/Album";
 
-function DashboardPage() {
+function DashboardPage({ title }) {
   return (
     <>
-      <Header />
+      <Header title={title} />
       <Container>
         <Album />
       </Container>
